@@ -44,4 +44,11 @@ These are the steps:
 - Create the Album structure.
 - Copy the Photos from the Photos directory to the Album directory.
 
+There is a file named [**appsettings.json**](https://raw.githubusercontent.com/J0rgeSerran0/FlickrDataAlbumsCreator/master/src/FlickrDataAlbumsCreator/appsettings.json) that you will have to modify.
+The information of this file is:
+
+- **albumsPath** The Albums Path where the tool will create the albums structure
+- **jsonAlbums** The name of the Albums JSON file (normally **albums.json**)
+- **jsonDataPath** The JSON Data path where the Albums JSON file is found
+- **photosPath** The Photos path where all photos are found
 
